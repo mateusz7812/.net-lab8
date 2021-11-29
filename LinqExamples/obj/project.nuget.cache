@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "9sZxa3H1SqpF5ADtUvl0dyya1CsFyHpT5roG6g8xo6muF52qSiH+cIfSyZsXpIExoZlWyjZF2tvA/BxSMQeRvA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mateusz\\Desktop\\.net\\WykladLINQ\\LinqExamples\\LinqExamples.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mateusz\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Mateusz\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Mateusz\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Mateusz\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,14 @@
+C:\Users\Mateusz\Desktop\.net\WykladLINQ\WykladLINQ\bin\Debug\netcoreapp3.1\WykladLINQ.exe
+C:\Users\Mateusz\Desktop\.net\WykladLINQ\WykladLINQ\bin\Debug\netcoreapp3.1\WykladLINQ.deps.json
+C:\Users\Mateusz\Desktop\.net\WykladLINQ\WykladLINQ\bin\Debug\netcoreapp3.1\WykladLINQ.runtimeconfig.json
+C:\Users\Mateusz\Desktop\.net\WykladLINQ\WykladLINQ\bin\Debug\netcoreapp3.1\WykladLINQ.runtimeconfig.dev.json
+C:\Users\Mateusz\Desktop\.net\WykladLINQ\WykladLINQ\bin\Debug\netcoreapp3.1\WykladLINQ.dll
+C:\Users\Mateusz\Desktop\.net\WykladLINQ\WykladLINQ\bin\Debug\netcoreapp3.1\WykladLINQ.pdb
+C:\Users\Mateusz\Desktop\.net\WykladLINQ\WykladLINQ\obj\Debug\netcoreapp3.1\WykladLINQ.csproj.AssemblyReference.cache
+C:\Users\Mateusz\Desktop\.net\WykladLINQ\WykladLINQ\obj\Debug\netcoreapp3.1\WykladLINQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mateusz\Desktop\.net\WykladLINQ\WykladLINQ\obj\Debug\netcoreapp3.1\WykladLINQ.AssemblyInfoInputs.cache
+C:\Users\Mateusz\Desktop\.net\WykladLINQ\WykladLINQ\obj\Debug\netcoreapp3.1\WykladLINQ.AssemblyInfo.cs
+C:\Users\Mateusz\Desktop\.net\WykladLINQ\WykladLINQ\obj\Debug\netcoreapp3.1\WykladLINQ.csproj.CoreCompileInputs.cache
+C:\Users\Mateusz\Desktop\.net\WykladLINQ\WykladLINQ\obj\Debug\netcoreapp3.1\WykladLINQ.dll
+C:\Users\Mateusz\Desktop\.net\WykladLINQ\WykladLINQ\obj\Debug\netcoreapp3.1\WykladLINQ.pdb
+C:\Users\Mateusz\Desktop\.net\WykladLINQ\WykladLINQ\obj\Debug\netcoreapp3.1\WykladLINQ.genruntimeconfig.cache

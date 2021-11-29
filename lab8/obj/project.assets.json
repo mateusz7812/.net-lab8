@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "LinqExamples/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/LinqExamples.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LinqExamples.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LinqExamples/1.0.0": {
+      "type": "project",
+      "path": "../LinqExamples/LinqExamples.csproj",
+      "msbuildProject": "../LinqExamples/LinqExamples.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "LinqExamples >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Mateusz\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Mateusz\\Desktop\\.net\\WykladLINQ\\lab8\\lab8.csproj",
+      "projectName": "lab8",
+      "projectPath": "C:\\Users\\Mateusz\\Desktop\\.net\\WykladLINQ\\lab8\\lab8.csproj",
+      "packagesPath": "C:\\Users\\Mateusz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mateusz\\Desktop\\.net\\WykladLINQ\\lab8\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Mateusz\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\Mateusz\\Desktop\\.net\\WykladLINQ\\LinqExamples\\LinqExamples.csproj": {
+              "projectPath": "C:\\Users\\Mateusz\\Desktop\\.net\\WykladLINQ\\LinqExamples\\LinqExamples.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
