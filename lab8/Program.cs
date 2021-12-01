@@ -96,18 +96,21 @@ namespace lab8
             //ShowGeneratingStudentsEasy();
             //ShowGeneratingStudentsA();
             //ShowGeneratingStudentsB();
-            //ShowGeneratingStudentsC();
-            ShowReflection();
+            ShowGeneratingStudentsC();
+            //ShowReflection();
         }
 
         private static void ShowReflection()
         {
             var m1 = Assembly.GetExecutingAssembly().CreateInstance(Type.GetType("MixedNumber").FullName, false,
-					BindingFlags.CreateInstance, null, new object[]{1, 4}, null, null);
+					BindingFlags.CreateInstance, null, new object[]{1, 2}, null, null);
             var m2 = Assembly.GetExecutingAssembly().CreateInstance(Type.GetType("MixedNumber").FullName, false,
-					BindingFlags.CreateInstance, null, new object[]{2, 4}, null, null);
-            var m3 = m1.GetType().GetMethod("op_Addition").Invoke(m1, new object[]{m1, m2});
-            Console.WriteLine(m3);
+					BindingFlags.CreateInstance, null, new object[]{1, 6}, null, null);
+            var m3 = Type.GetType("MixedNumber").GetMethod("op_Addition").Invoke(m1, new object[]{m1, m2});
+            var m4 = Assembly.GetExecutingAssembly().CreateInstance(Type.GetType("MixedNumber").FullName, false,
+					BindingFlags.CreateInstance, null, new object[]{-1, 3}, null, null);
+            var m5 = Type.GetType("MixedNumber").GetMethod("op_Addition").Invoke(m3, new object[]{m3, m4});
+            Console.WriteLine(m5);
         }
 
         private static void ShowGeneratingStudentsC()
@@ -143,10 +146,13 @@ namespace lab8
 
         private static void ShowGeneratingStudentsEasy()
         {
-            var topics = new List<string>(){"C#", "algorithms", "Java", "PHP", "C++", "fuzzy logic", "Basic", "JavaScript", "neural networks", "web programming"}.Select(t => new Topic(t));
+            var topics = new List<string>(){"C#", "algorithms", "Java", "PHP", "C++", "fuzzy logic", "Basic", 
+                "JavaScript", "neural networks", "web programming"}.Select(t => new Topic(t));
             var studentsWithTopics = Generator.GenerateStudentsWithTopicsEasy();
             var students = studentsWithTopics
-                .Select(s => new Student(s.Id, s.Index, s.Name, s.Gender, s.Active, s.DepartmentId, s.Topics.Select(t => topics.First(a => a.Name == t)).ToList()));
+                .Select(s => new Student(s.Id, s.Index, s.Name, s.Gender, s.Active, s.DepartmentId, s.Topics
+                .Select(t => topics.First(a => a.Name == t))
+                .ToList()));
             foreach(var stud in students)
                 Console.WriteLine(stud);
         }
